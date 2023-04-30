@@ -35,7 +35,7 @@ const Shoes = () => {
             {shoes.map((shoe) => (
               <Col key={shoe.id} className="mb-4">
                 <Card>
-                  <Card.Img variant="top" src={shoe.image} style={{ height: '200px', objectFit: 'cover' }} />
+                  <Card.Img variant="top" src={shoe.imageUrl} style={{ height: '200px', objectFit: 'cover' }} />
                   <Card.Body>
                     <Card.Title>{shoe.name}</Card.Title>
                     <Card.Text>{shoe.description}</Card.Text>
